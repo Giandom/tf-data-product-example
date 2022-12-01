@@ -45,7 +45,7 @@ resource "azurerm_network_security_group" "odm_demo_nic_security_group" {
     protocol                   = "Tcp"
     source_port_range          = "*"
     destination_port_range     = "22"
-    source_address_prefix      = "151.66.84.61/32"
+    source_address_prefix      = "151.30.6.182/32"
     destination_address_prefix = "*"
   }
 }
